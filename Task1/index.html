@@ -1,0 +1,394 @@
+<html>
+    <head>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" ></link>
+    <link rel="stylesheet" href="style.css"></link>
+    <script>
+        function currentDiv(n) {
+          showDivs(slideIndex = n);
+        }
+        
+        function showDivs(n) {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("demo");
+          if (n > x.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = x.length}
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+          }
+          x[slideIndex-1].style.display = "block";
+          dots[slideIndex-1].className += " w3-opacity-off";
+        }
+        </script>  
+</head>
+    <body>
+        <div class="nav">
+        <div class="navbar">
+            <h3 style="margin-top:17px;">ZIPPY</h3>
+            <ul>
+              <li><a href="#home">HOME</a></li> 
+              <li><a href="#project">PROJECTS</a></li>
+              <li><a href="#price">PRICING</a></li> 
+              <li><a href="#team">TEAM</a></li> 
+              <li><a href="#blog">BLOG</a></li> 
+              <li><a href="#contact">CONTACT</a></li> 
+            </ul>  
+        </div>
+        <div class="content">    
+            <h1 style="font-size:35px;color:white">One page promising to<br>
+            fill all your needs!</h1> 
+            <h5>This is Photoshop's version of Lorem Ipsum, Proin<br>
+            gravida nibh vel velit auctor aliquet</h5>
+            <button class="btn1" >LEARN MORE</button>
+        </div> 
+        </div>
+        <section id="home">
+           <div><h2 style="text-align:center">Welcome to zippy</h2>
+            <div style="display:flex;justify-content:center">
+            <p style="font-size:1.4rem">This is photoshops's version of <br>Lorem Ipsum,Proin gravida nibh <br>vel velit auctor aliquet,Aenean sol-<br>licituim, loreum quis bibendum<br> actur.</p>   
+            <i class="fa fa-umbrella" style="font-size:9rem;"></i>
+            </div>
+        </div>
+        <div class="container3">
+          <div class="card" style="width:115px;height:300px;margin:1rem;">
+          <div style="text-align: center;">
+             <i class="fa fa-bell" style="font-size:2rem;border:1px solid black;background-color:rgb(104, 9, 104);
+             color:white;border-radius:50%;padding:0.5rem"></i>
+             <h5><b>LOREM IPSUM</b></h5>
+             <p>Lorem ipsum dolar sit amet 
+                Lorem ipsum dolar sit amet
+                Lorem ipsum dolar sit 
+             </p>
+             <button class="blog-btn">LEARN MORE</button>
+           </div>
+           </div>
+
+           <div class="card" style="width:115px;height:300px;margin:1rem;">
+            <div style="text-align: center;">
+               <i class="fa fa-envelope" style="font-size:2rem;border:1px solid black;background-color:rgb(104, 9, 104);
+               color:white;border-radius:50%;padding:0.5rem"></i>
+               <h5><b>DOLOR SIT</b></h5>
+               <p>Lorem ipsum dolar sit amet 
+                  Lorem ipsum dolar sit amet
+                  Lorem ipsum dolar sit 
+               </p>
+               <button class="blog-btn">LEARN MORE</button>
+             </div>
+             </div>
+  
+             <div class="card" style="width:115px;height:300px;margin:1rem;">
+                <div style="text-align: center;">
+                   <i class="fa fa-book" style="font-size:2rem;border:1px solid black;background-color:rgb(104, 9, 104);
+                   color:white;border-radius:50%;padding:0.5rem"></i>
+                   <h5><b>CONSECTURE</b></h5>
+                   <p>Lorem ipsum dolar sit amet 
+                      Lorem ipsum dolar sit amet
+                      Lorem ipsum dolar sit 
+                   </p>
+                   <button class="blog-btn">LEARN MORE</button>
+                </div>
+            </div>
+        </div>
+           <hr/>
+        </section>
+
+        <section id="project">
+            <div><h2 style="text-align:center">Projects</h2></div>
+            <div class="container1">
+            <div class="card1" style="width:auto;height:100%">
+                <img src="card2.png" style="width:100%;height:100%">
+               <div>
+                   <h4><b>PROJECT NAME</b></h4>
+                   <p>Lorem ipsum dolar sit amet 
+                       Lorem ipsum dolar sit amet
+                       Lorem ipsum dolar sit 
+                   </p>
+                   <button class="project-btn">LAUNCH CASE STUDY</button>
+               </div>
+            </div>
+
+            <div class="card1" style="width:auto;height:100%">
+                <img src="card4.jpg" style="width:100%;height:100%">
+               <div>
+                   <h4><b>PROJECT NAME</b></h4>
+                   <p>Lorem ipsum dolar sit amet 
+                       Lorem ipsum dolar sit amet
+                       Lorem ipsum dolar sit 
+                   </p>
+                   <button class="project-btn">LAUNCH CASE STUDY</button>
+               </div>
+            </div>
+
+               <div class="card1" style="width:auto;height:80%">
+                <img src="card2.png" style="width:100%;height:100%">
+               <div>
+                   <h4><b>PROJECT NAME</b></h4>
+                   <p>Lorem ipsum dolar sit amet 
+                       Lorem ipsum dolar sit amet
+                       Lorem ipsum dolar sit 
+                   </p>
+                   <button class="project-btn">LAUNCH CASE STUDY</button>
+               </div>
+               </div>
+
+               <div class="card1" style="width:auto;height:100%">
+                <img src="card3.jpg" style="width:100%;height:100%">
+               <div>
+                   <h4><b>PROJECT NAME</b></h4>
+                   <p>Lorem ipsum dolar sit amet 
+                       Lorem ipsum dolar sit amet
+                       Lorem ipsum dolar sit 
+                   </p>
+                   <button class="project-btn">LAUNCH CASE STUDY</button>
+               </div>
+               </div>
+        </section>
+
+        <section id="price">
+            <h2 style="text-align:center">Pricing Table</h2>
+            <div class="contain">
+                <div class="card2" style="width:115px;height:300px;
+                margin:1rem;border-right:1px solid black;height:200px;">
+                <div style="text-align: center;">
+                    <h5><b>STANDARD PLAN</b></h5>
+                    <p>FREE</p>
+                    <p>
+                       2GB Available<br>
+                       ongoing Ads<br>
+                       20 messages<br>
+                       15 max contacts<br>
+                    </p>
+                    <button class="price-btn">BUY</button>
+                </div>
+                </div>
+
+                <div class="card2" style="width:115px;height:300px;
+                margin:1rem;border-right:1px solid black;height:200px;">
+                    <div style="text-align: center;">
+                        <h5><b>PREMIUM PLAN</b></h5>
+                        <p>FREE</p>
+                        <p>
+                           100GB Available<br>
+                           NO Ads<br>
+                           200 messages<br>
+                           75 max contacts<br>
+                        </p>
+                        <button class="price-btn">BUY</button>
+                    </div>
+                    </div>
+
+                    <div class="card2" style="width:115px;height:300px;
+                    margin:1rem;border-right:1px solid white;height:200px;">
+                        <div style="text-align: center;">
+                        <h5><b>BUSINESS PLAN</b></h5>
+                        <p>FREE</p>
+                        <p>
+                        50GB Available<br>
+                        ongoing Ads<br>
+                        100 messages<br>
+                        50 max contacts<br>
+                        </p>
+                        <button class="price-btn">BUY</button>
+                        </div>
+                        </div>
+            </div>
+        </div>
+        <div class="container2">
+         <h2 style="text-align:center;color:white">Video Projects</h2>
+         <div>
+         <iframe src="https://youtube.com/embed/Z_0Y57wtNHE" style="width:420;height:315"></iframe>
+         <iframe src="https://youtube.com/embed/Hr1Emeh6E2M" style="width:420;height:315"></iframe>
+         <iframe src="https://youtube.com/embed/Z_0Y57wtNHE" style="width:420;height:315"></iframe>  
+        </div>
+        </section>
+
+        <section id="team">
+            <div class="box">
+                <h2 style="text-align:center">Zippy Team</h2>
+                <div style="padding:0.5rem;
+                display:flex;justify-content: center;">
+                <div style="text-align: center;">
+                  <img src="photo3.jpg" class="image" style="border-radius: 50%;width:210;height:210"> 
+                  <p>ALISA</p> 
+                  <p>Senior Designer</p>
+                  <div style="display: flex;justify-content: space-evenly;">
+                  <a href="#" class="icon">
+                     <i class="fa fa-facebook"></i>
+                  </a>
+                  <a href="#" class="icon">
+                    <i class="fa fa-twitter"></i>
+                 </a>
+                 <a href="#" class="icon">
+                    <i class="fa fa-linkedin"></i>
+                 </a>
+                </div>
+                </div>
+                <div style="text-align: center;">
+                    <img src="photo2.jpg" class="image" style="border-radius: 50%;width:210;height:210"> 
+                    <p>SMITH</p> 
+                    <p>Marketing Manager</p>
+                    <div style="display: flex;justify-content: space-evenly;">
+                        <a href="#" class="icon">
+                           <i class="fa fa-facebook"></i>
+                        </a>
+                        <a href="#" class="icon">
+                          <i class="fa fa-twitter"></i>
+                       </a>
+                       <a href="#" class="icon">
+                          <i class="fa fa-linkedin"></i>
+                       </a>
+                      </div>
+                  </div>
+                  <div style="text-align: center;">
+                    <img src="photo1.jpg" class="image" style="border-radius: 50%;width:210;height:210"> 
+                    <p>ALEX</p> 
+                    <p>Art Director</p>
+                    <div style="display: flex;justify-content: space-evenly;">
+                        <a href="#" class="icon">
+                           <i class="fa fa-facebook"></i>
+                        </a>
+                        <a href="#" class="icon">
+                          <i class="fa fa-twitter"></i>
+                       </a>
+                       <a href="#" class="icon">
+                          <i class="fa fa-linkedin"></i>
+                       </a>
+                      </div>
+                  </div>  
+                </div>  
+            </div>
+
+
+            <div class="w3-container" style="background-image:linear-gradient(skyblue,violet);padding-bottom:1rem;">
+              <h2 style="text-align:center">Life in Zippy</h2>
+              <div class="w3-content" style="max-width:500px;margin-bottom:2rem;
+              position:relative;left:390px">
+                <img class="mySlides" src="blog3.jpg" style="width:100%;display:none">
+                <img class="mySlides" src="blog1.jpg" style="width:100%">
+                <img class="mySlides" src="blog2.jpg" style="width:100%;display:none">
+              
+                <div class="w3-row-padding w3-section">
+                  <div class="w3-col s4">
+                    <img class="demo w3-opacity w3-hover-opacity-off" src="blog3.jpg" style="width:100%;height:110px;cursor:pointer" onclick="currentDiv(1)">
+                  </div>
+                  <div class="w3-col s4">
+                    <img class="demo w3-opacity w3-hover-opacity-off" src="blog1.jpg" style="width:100%;height:110px;cursor:pointer" onclick="currentDiv(2)">
+                  </div>
+                  <div class="w3-col s4">
+                    <img class="demo w3-opacity w3-hover-opacity-off" src="blog2.jpg" style="width:100%;height:110px;cursor:pointer" onclick="currentDiv(3)">
+                  </div>
+                </div>
+              </div>
+              
+                
+            </div>
+        </section>
+
+        <section>
+            <div class="newsletter">
+                <h1 style="text-align:center">Newsletter Signup</h1>
+                <form>
+                    <input type="email" style="height:1.7rem" placeholder="abc@gmail.com"></input>
+                    <button class="signup-btn" >signup</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="blog">
+            <h2 style="text-align:center">Blog</h2>
+            <div class="container">
+            <div class="card" style="width:200px;height:300px">
+             <img src="blog1.jpg" style="width:100%">
+            <div style="text-align: center;">
+                <h4><b>LOREM IPSUM DOLAR SIT AMAT</b></h4>
+                <p>3 AUG,2021</p>
+                <p>Lorem ipsum dolar sit amet 
+                    Lorem ipsum dolar sit amet
+                    Lorem ipsum dolar sit 
+                </p>
+                <button class="blog-btn">READ MORE</button>
+            </div>
+            </div>
+
+            <div class="card" style="width:200px;height:300px">
+                <img src="blog2.jpg" style="width:100%;height:38%">
+               <div style="text-align: center;">
+                   <h4><b>LOREM IPSUM DOLAR SIT AMAT</b></h4>
+                   <p>3 AUG,2021</p>
+                   <p>Lorem ipsum dolar sit amet 
+                       Lorem ipsum dolar sit amet
+                       Lorem ipsum dolar sit 
+                   </p>
+                   <button class="blog-btn">READ MORE</button>
+               </div>
+               </div>
+
+               <div class="card" style="width:200px;height:300px">
+                <img src="blog3.jpg" style="width:100%;height:37%">
+               <div style="text-align: center;">
+                   <h4><b>LOREM IPSUM DOLAR SIT AMAT</b></h4>
+                   <p>3 AUG,2021</p>
+                   <p>Lorem ipsum dolar sit amet 
+                       Lorem ipsum dolar sit amet
+                       Lorem ipsum dolar sit 
+                   </p>
+                   <button class="blog-btn">READ MORE</button>
+               </div>
+               </div>
+
+            
+
+        </div>
+        </section>
+
+        <section id="contact">
+         <div style="display:flex;">
+            <div style="width:100%;display:flex">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d497512.46095891093!2d79.92880021198158!3d13.047374752915205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5265ea4f7d3361%3A0x6e61a70b6863d433!2sChennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1627986333053!5m2!1sen!2sin" width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div style="display:flex;padding:5px 40px;flex-direction:column;width:100%;background-color: yellow;">
+            <h2>Contact</h2>
+            <label>NAME</label>
+            <input type="text"></input>
+            <label>EMAIL ADDRESS</label>
+            <input type="text"></input>
+            <label>SUBJECT</label>
+            <input type="text"></input>
+            <label>MESSAGE</label>
+            <textarea type="text"></textarea>
+            <button style="color:white;background-color: rgb(114, 9, 114);">SEND</button>               
+        </div>
+        </div>
+        </section>
+
+        <section>
+            <div class="footer">
+                <div>
+                    <b>OFFICE ADDRESS</b>
+                    <p>Loreum ipsum</p>
+                    <p>1200 consecture</p>
+                    <p>chennai</p>
+                </div>
+                <div>
+                    <b>FOLLOW US</b>
+                    <div style="display:flex;justify-content:space-between;margin-top:1rem;">
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-linkedin"></i>
+                    </div>
+                </div>
+                <div>
+                    <b>CONTACT US</b>
+                    <p>+123 456 789</p>
+                    <p>Zippy@skype</p>
+                    <p>enquiry@zippy.com</p>
+                </div>
+            </div>
+        </section>
+        <script src="https://maps.googleapis.com/map/api/js?key=YOUR_KEY&callback=myMap"></script>
+
+    </body>
+</html>
