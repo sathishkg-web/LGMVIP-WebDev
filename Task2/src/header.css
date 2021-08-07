@@ -1,0 +1,12 @@
+.header {
+    display:flex;
+    justify-content:space-around;
+    background-image:linear-gradient(violet,skyblue,grey)
+}
+
+.btn {
+    border:none;
+    border-radius: 4px;
+    padding:1rem;
+    margin:0.5rem;
+}
